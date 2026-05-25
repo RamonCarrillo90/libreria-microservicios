@@ -5,7 +5,7 @@ const PORT = 3002;
 
 app.use(express.json());
 
-const CATALOGO_URL = process.env.CATALOGO_URL || 'libreria-microservicios-9s0zf9zt2-proyectos-ramon.vercel.app';
+const CATALOGO_URL = process.env.CATALOGO_URL || 'https://libreria-microservicios-9s0zf9zt2-proyectos-ramon.vercel.app';
 
 // Arreglo en memoria para almacenar órdenes
 const ordenes = [];
