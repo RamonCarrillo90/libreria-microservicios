@@ -6,11 +6,11 @@ app.use(express.json());
 
 // Arreglo en memoria (simulando base de datos)
 const libros = [
-    { id: 1, titulo: "El Quijote", autor: "Miguel de Cervantes", precio: 250, stock: 10 },
-    { id: 2, titulo: "Cien años de soledad", autor: "Gabriel García Márquez", precio: 300, stock: 5 },
+    { id: 1, titulo: "Las ratas de las paredes", autor: "HP. Lovecraft", precio: 320, stock: 15 },
+    { id: 2, titulo: "El horror de red hook", autor: "HP. Lovecraft", precio: 400, stock: 21 },
     { id: 3, titulo: "Pedro Páramo", autor: "Juan Rulfo", precio: 150, stock: 8 },
-    { id: 4, titulo: "Rayuela", autor: "Julio Cortázar", precio: 280, stock: 3 },
-    { id: 5, titulo: "La ciudad y los perros", autor: "Mario Vargas Llosa", precio: 220, stock: 12 }
+    { id: 4, titulo: "Cadaver exquisito", autor: "Agustina Bazterrica", precio: 240, stock: 2 },
+    { id: 5, titulo: "14 semanas en globo", autor: "Julio Verne", precio: 220, stock: 12 }
 ];
 
 // Endpoint GET /api/libros/:id
