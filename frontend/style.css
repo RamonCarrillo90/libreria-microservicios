@@ -1,6 +1,36 @@
-h1{
-    color: blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: larger;
-    
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f5f5f5;
+}
+
+.contenedor {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#estado {
+    font-size: 13px;
+    color: gray;
 }
