@@ -29,6 +29,10 @@ app.get('/api/libros/:id', (req, res) => {
     }
 });
 
+app.get('/api/libros', (req, res) => {
+    res.status(200).json(libros);
+});
+
 app.patch('/api/libros/:id/stock', (req, res) => {
     const id = parseInt(req.params.id);
     const { cantidad } = req.body;
