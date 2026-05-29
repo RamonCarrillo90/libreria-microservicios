@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Servicio libreria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería Online</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Catalogo libreria</h1>
-    <div class = "contendor">
-        <button id = "btn">Obtener libros</button>
-        <p id = "estado"></p>
-        <div id = "resultado"></div>
-    </div>
-    <script src = "app.js"></script>
+  <header>
+    <h1>Librería Online</h1>
+  </header>
+
+  <main>
+    <section id="catalogo">
+      <h2>Catálogo de libros</h2>
+      <div id="libros-grid"></div>
+    </section>
+
+    <section id="seccion-orden">
+      <h2>Crear orden</h2>
+      <div class="formulario">
+        <input type="number" id="libroId" placeholder="ID del libro" min="1"/>
+        <input type="number" id="cantidad" placeholder="Cantidad" min="1"/>
+        <input type="text" id="cliente" placeholder="Tu nombre"/>
+        <button id="btn-orden">Ordenar</button>
+      </div>
+      <p id="estado-orden"></p>
+      <div id="resultado-orden"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
